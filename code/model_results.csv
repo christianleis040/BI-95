@@ -1,16 +1,16 @@
 model,features_ratio,f1_score,best_params
-RandomForest,1.0,0.767542296310817,"{'model__max_depth': None, 'model__min_samples_leaf': 1, 'model__min_samples_split': 2, 'model__n_estimators': 200}"
+RandomForest,1.0,0.7688615641921519,"{'model__max_depth': None, 'model__min_samples_leaf': 1, 'model__min_samples_split': 2, 'model__n_estimators': 200}"
 KNN,1.0,0.5853137953187869,"{'model__metric': 'manhattan', 'model__n_neighbors': 9, 'model__weights': 'distance'}"
 SVM,1.0,0.25569981401787606,{'model__C': 10}
-MLP,1.0,0.10189474790748913,"{'model__activation': 'relu', 'model__alpha': 0.0001, 'model__hidden_layer_sizes': (50,), 'model__solver': 'sgd'}"
+MLP,1.0,0.09928881769442677,"{'model__activation': 'relu', 'model__alpha': 0.001, 'model__hidden_layer_sizes': (50,), 'model__solver': 'adam'}"
 LogisticRegression,1.0,0.09964320599918057,"{'model__C': 1, 'model__penalty': 'l2', 'model__solver': 'saga'}"
-RandomForest,0.8,0.7695907533193472,"{'model__max_depth': None, 'model__min_samples_leaf': 1, 'model__min_samples_split': 10, 'model__n_estimators': 200}"
+RandomForest,0.8,0.7667851045966484,"{'model__max_depth': None, 'model__min_samples_leaf': 1, 'model__min_samples_split': 2, 'model__n_estimators': 200}"
 KNN,0.8,0.7423370134333139,"{'model__metric': 'manhattan', 'model__n_neighbors': 9, 'model__weights': 'distance'}"
 SVM,0.8,0.10189474790748913,{'model__C': 1}
-MLP,0.8,0.30622537438415354,"{'model__activation': 'relu', 'model__alpha': 0.001, 'model__hidden_layer_sizes': (50,), 'model__solver': 'adam'}"
-LogisticRegression,0.8,0.13448896177811667,"{'model__C': 10, 'model__penalty': 'l2', 'model__solver': 'saga'}"
-RandomForest,0.4,0.7177774878245862,"{'model__max_depth': None, 'model__min_samples_leaf': 1, 'model__min_samples_split': 10, 'model__n_estimators': 200}"
+MLP,0.8,0.15080039665844716,"{'model__activation': 'relu', 'model__alpha': 0.001, 'model__hidden_layer_sizes': (50,), 'model__solver': 'adam'}"
+LogisticRegression,0.8,0.13448896177811667,"{'model__C': 1, 'model__penalty': 'l2', 'model__solver': 'saga'}"
+RandomForest,0.4,0.7192458042128627,"{'model__max_depth': 15, 'model__min_samples_leaf': 1, 'model__min_samples_split': 2, 'model__n_estimators': 200}"
 KNN,0.4,0.6820208730733563,"{'model__metric': 'manhattan', 'model__n_neighbors': 9, 'model__weights': 'distance'}"
 SVM,0.4,0.6991766926135846,{'model__C': 10}
-MLP,0.4,0.7014276253074622,"{'model__activation': 'relu', 'model__alpha': 0.001, 'model__hidden_layer_sizes': (100,), 'model__solver': 'adam'}"
+MLP,0.4,0.7124976101032612,"{'model__activation': 'relu', 'model__alpha': 0.001, 'model__hidden_layer_sizes': (100,), 'model__solver': 'adam'}"
 LogisticRegression,0.4,0.599438268546844,"{'model__C': 10, 'model__penalty': 'l2', 'model__solver': 'saga'}"
